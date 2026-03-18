@@ -99,3 +99,7 @@ ultima = frutas.pop()
 print("Após remover 'uva' e pop:", frutas,"| Última removida:", ultima)
 
 
+lista_compras = ["caqui", "bergamota", "abacaxi"]
+print(lista_compras) 
+lista_compras.append("caqui")
+lista_compras.remove("bergamota")
